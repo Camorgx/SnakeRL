@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "board_size": 8,
+  "seed_start": 10000,
+  "episodes": 100,
+  "seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019,
+    10020,
+    10021,
+    10022,
+    10023,
+    10024,
+    10025,
+    10026,
+    10027,
+    10028,
+    10029,
+    10030,
+    10031,
+    10032,
+    10033,
+    10034,
+    10035,
+    10036,
+    10037,
+    10038,
+    10039,
+    10040,
+    10041,
+    10042,
+    10043,
+    10044,
+    10045,
+    10046,
+    10047,
+    10048,
+    10049,
+    10050,
+    10051,
+    10052,
+    10053,
+    10054,
+    10055,
+    10056,
+    10057,
+    10058,
+    10059,
+    10060,
+    10061,
+    10062,
+    10063,
+    10064,
+    10065,
+    10066,
+    10067,
+    10068,
+    10069,
+    10070,
+    10071,
+    10072,
+    10073,
+    10074,
+    10075,
+    10076,
+    10077,
+    10078,
+    10079,
+    10080,
+    10081,
+    10082,
+    10083,
+    10084,
+    10085,
+    10086,
+    10087,
+    10088,
+    10089,
+    10090,
+    10091,
+    10092,
+    10093,
+    10094,
+    10095,
+    10096,
+    10097,
+    10098,
+    10099
+  ],
+  "results": {
+    "random": {
+      "episodes": 100,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_ci95": [
+        3.469446951953614e-18,
+        0.03699349820698568
+      ],
+      "mean_coverage": 0.04765625,
+      "min_coverage": 0.046875,
+      "max_coverage": 0.078125,
+      "mean_steps": 6.17,
+      "mean_success_steps": null,
+      "mean_return": -0.9544842857142858,
+      "termination_counts": {
+        "wall_collision": 100
+      }
+    },
+    "greedy": {
+      "episodes": 100,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_ci95": [
+        3.469446951953614e-18,
+        0.03699349820698568
+      ],
+      "mean_coverage": 0.37875,
+      "min_coverage": 0.15625,
+      "max_coverage": 0.671875,
+      "mean_steps": 139.99,
+      "mean_success_steps": null,
+      "mean_return": 20.233424285714285,
+      "termination_counts": {
+        "body_collision": 68,
+        "wall_collision": 32
+      }
+    },
+    "hamiltonian": {
+      "episodes": 100,
+      "successes": 100,
+      "success_rate": 1.0,
+      "success_rate_ci95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "max_coverage": 1.0,
+      "mean_steps": 981.48,
+      "mean_success_steps": 981.48,
+      "mean_return": 70.35146285714285,
+      "termination_counts": {
+        "full_board": 100
+      }
+    },
+    "ppo": {
+      "episodes": 100,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_ci95": [
+        3.469446951953614e-18,
+        0.03699349820698568
+      ],
+      "mean_coverage": 0.53015625,
+      "min_coverage": 0.125,
+      "max_coverage": 0.71875,
+      "mean_steps": 387.49,
+      "mean_success_steps": null,
+      "mean_return": 29.731385714285725,
+      "termination_counts": {
+        "body_collision": 99,
+        "no_food_timeout": 1
+      }
+    },
+    "imitation_ppo": {
+      "episodes": 100,
+      "successes": 100,
+      "success_rate": 1.0,
+      "success_rate_ci95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "max_coverage": 1.0,
+      "mean_steps": 981.48,
+      "mean_success_steps": 981.48,
+      "mean_return": 70.35146285714285,
+      "termination_counts": {
+        "full_board": 100
+      }
+    },
+    "imitation_only": {
+      "episodes": 100,
+      "successes": 100,
+      "success_rate": 1.0,
+      "success_rate_ci95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "max_coverage": 1.0,
+      "mean_steps": 981.48,
+      "mean_success_steps": 981.48,
+      "mean_return": 70.35146285714285,
+      "termination_counts": {
+        "full_board": 100
+      }
+    }
+  },
+  "checkpoints": {
+    "ppo": "runs/ppo8_extended/checkpoints/best.zip",
+    "imitation_ppo": "runs/imitation8/final.zip",
+    "imitation_only": "runs/imitation8/checkpoints/bc.zip"
+  }
+}

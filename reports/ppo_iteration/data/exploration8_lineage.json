@@ -1,0 +1,18 @@
+{
+  "known": true,
+  "expert_demonstrations_used": false,
+  "ancestors": [
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\stable8\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8_extended\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8\\final.zip"
+  ],
+  "algorithm": "PPO",
+  "action_masking": false,
+  "planner_at_inference": false,
+  "initial_checkpoint_sha256": "00b455ec36e623fc2f4af060ff747698786db81da41092e101152c243dd5e1c9",
+  "source_sha256": {
+    "env.py": "ca7a73252121a0169dd83312a7e4ecd1b64042f91ae871e3a53e4a0e4994653a",
+    "model.py": "d5d1a9f91fed13a138a441003ed706a0e5c2fb4c8b09b49d85f4ee3e4d194c6c",
+    "training.py": "5e96d99d84a83a783d375fe2a57d0501867b46fac680751c9f96eabb38b2784d"
+  }
+}

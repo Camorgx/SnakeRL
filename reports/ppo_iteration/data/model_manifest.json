@@ -1,0 +1,41 @@
+[
+  {
+    "path": "runs\\ppo_iteration\\curriculum4\\checkpoints\\best.zip",
+    "sha256": "ccd35351266e265754365f282a0f662b9898618a0ebe0410b0c492a028503511",
+    "lineage": {
+      "known": true,
+      "expert_demonstrations_used": false,
+      "ancestors": [
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\curriculum4\\checkpoints\\best.zip"
+      ]
+    }
+  },
+  {
+    "path": "runs\\ppo_iteration\\curriculum6\\checkpoints\\best.zip",
+    "sha256": "c948690e80ba51ad9893190c2ddb77fe22c97e426475e841563206955b12e10a",
+    "lineage": {
+      "known": true,
+      "expert_demonstrations_used": false,
+      "ancestors": [
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\curriculum6\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\curriculum4\\checkpoints\\step_655360.zip"
+      ]
+    }
+  },
+  {
+    "path": "runs\\ppo_iteration\\final8\\checkpoints\\best.zip",
+    "sha256": "77c9c00b59d9db5833fa6ed9c5258ec59a8d8fb201b2368b68697b989b9419f0",
+    "lineage": {
+      "known": true,
+      "expert_demonstrations_used": false,
+      "ancestors": [
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\final8\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\endgame8\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\separate8\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\stable8\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8_extended\\checkpoints\\best.zip",
+        "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8\\final.zip"
+      ]
+    }
+  }
+]

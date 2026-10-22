@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "snakerl"
+version = "0.1.0"
+description = "Observe a neural snake learn: reproducible PPO, expert imitation, and honest baselines."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "gymnasium>=1.1,<2",
+  "stable-baselines3>=2.6,<3",
+  "torch>=2.5,<3",
+  "numpy>=1.26,<3",
+  "pygame>=2.6,<3",
+  "tensorboard>=2.18,<3",
+  "matplotlib>=3.9,<4",
+]
+
+[project.scripts]
+snakerl = "snakerl.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/snakerl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-local-tmp"
+markers = ["slow: longer model or integration tests"]
+
+[tool.uv]
+cache-dir = ".uv-cache"
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

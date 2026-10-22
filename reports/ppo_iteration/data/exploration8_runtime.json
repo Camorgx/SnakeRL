@@ -1,0 +1,19 @@
+{
+  "python": "3.13.11 (main, Jan 14 2026, 19:29:23) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "dependencies": {
+    "torch": "2.14.1+cpu",
+    "gymnasium": "1.4.0",
+    "stable-baselines3": "2.9.0",
+    "numpy": "2.5.4",
+    "tensorboard": "2.21.0"
+  },
+  "torch_build": "2.14.1+cpu",
+  "device": "cpu",
+  "threads": 2,
+  "seed": 5,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "note": "Fixed seeds aid repeatability; different dependency versions/devices may change numerical results."
+}

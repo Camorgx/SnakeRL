@@ -1,0 +1,14 @@
+[
+  {
+    "sha256": "C79D483299F6583672B55B46DCE2F47C2B78E943796D36737DF878F823B4A905",
+    "path": "runs\\ppo8_extended\\checkpoints\\best.zip"
+  },
+  {
+    "sha256": "E69A74E47EF0A0C19A16A81077BF706B471CF9A43510BD47A018672C9FA1281F",
+    "path": "runs\\imitation8\\final.zip"
+  },
+  {
+    "sha256": "E951B3FFA460F3D682C0A2E3D9A9E9C5941374A3EE8AACAFC4C4402D03D3E05D",
+    "path": "runs\\imitation8\\checkpoints\\bc.zip"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "known": true,
+  "expert_demonstrations_used": false,
+  "ancestors": [
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\endgame8\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\separate8\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo_iteration\\stable8\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8_extended\\checkpoints\\best.zip",
+    "C:\\Users\\18213\\Source\\SnakeRL\\runs\\ppo8\\final.zip"
+  ],
+  "algorithm": "PPO",
+  "action_masking": false,
+  "planner_at_inference": false,
+  "initial_checkpoint_sha256": "da202eab27fec20b1b992b167094fc8a96c155f4d5a11fd315406addfd75da53",
+  "source_sha256": {
+    "env.py": "84d40efef82de9d2bfff7970b50005d6c46360b71b37f1b55b32e25738d21131",
+    "model.py": "31cdbf1e1360cdbe3986b16b3b2f9e529ac4624244410127159c7c28119d4afd",
+    "training.py": "317b68d83e141098c0ee84bd5387a3ed066ea14e074d8f7db34849a3b5d81205"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "phase": "periodic",
+  "timesteps": 1048576,
+  "episodes": 10,
+  "successes": 10,
+  "success_rate": 1.0,
+  "mean_coverage": 1.0,
+  "mean_reward": 44.437124999999995,
+  "mean_steps": 47.0,
+  "mean_success_steps": 47.0,
+  "seeds": [
+    1010000,
+    1010001,
+    1010002,
+    1010003,
+    1010004,
+    1010005,
+    1010006,
+    1010007,
+    1010008,
+    1010009
+  ]
+}

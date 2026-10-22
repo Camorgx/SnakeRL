@@ -1,0 +1,509 @@
+{
+  "date": "2026-10-14",
+  "total_new_steps_collected": 12582912,
+  "runs": [
+    {
+      "name": "stable8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "periodic",
+        "timesteps": 1048576,
+        "episodes": 10,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.8890625,
+        "mean_reward": 52.30528571428532,
+        "mean_steps": 967.9,
+        "mean_success_steps": null,
+        "seeds": [
+          1000000,
+          1000001,
+          1000002,
+          1000003,
+          1000004,
+          1000005,
+          1000006,
+          1000007,
+          1000008,
+          1000009
+        ]
+      },
+      "observation_version": 1,
+      "reward_profile": "legacy"
+    },
+    {
+      "name": "curriculum4",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "periodic",
+        "timesteps": 1048576,
+        "episodes": 10,
+        "successes": 10,
+        "success_rate": 1.0,
+        "mean_coverage": 1.0,
+        "mean_reward": 44.437124999999995,
+        "mean_steps": 47.0,
+        "mean_success_steps": 47.0,
+        "seeds": [
+          1010000,
+          1010001,
+          1010002,
+          1010003,
+          1010004,
+          1010005,
+          1010006,
+          1010007,
+          1010008,
+          1010009
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "curriculum6",
+      "steps_collected": 2097152,
+      "best_validation": {
+        "phase": "periodic",
+        "timesteps": 1835008,
+        "episodes": 20,
+        "successes": 13,
+        "success_rate": 0.65,
+        "mean_coverage": 0.7375,
+        "mean_reward": 52.39514629629629,
+        "mean_steps": 267.1,
+        "mean_success_steps": 307.84615384615387,
+        "seeds": [
+          1020000,
+          1020001,
+          1020002,
+          1020003,
+          1020004,
+          1020005,
+          1020006,
+          1020007,
+          1020008,
+          1020009,
+          1020010,
+          1020011,
+          1020012,
+          1020013,
+          1020014,
+          1020015,
+          1020016,
+          1020017,
+          1020018,
+          1020019
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "coverage8",
+      "steps_collected": 2097152,
+      "best_validation": {
+        "phase": "pretrain",
+        "timesteps": 0,
+        "episodes": 20,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.87734375,
+        "mean_reward": 76.11455546874988,
+        "mean_steps": 961.35,
+        "mean_success_steps": null,
+        "seeds": [
+          1030000,
+          1030001,
+          1030002,
+          1030003,
+          1030004,
+          1030005,
+          1030006,
+          1030007,
+          1030008,
+          1030009,
+          1030010,
+          1030011,
+          1030012,
+          1030013,
+          1030014,
+          1030015,
+          1030016,
+          1030017,
+          1030018,
+          1030019
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "self_curriculum8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "pretrain",
+        "timesteps": 0,
+        "episodes": 20,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.87734375,
+        "mean_reward": 76.11455546874988,
+        "mean_steps": 961.35,
+        "mean_success_steps": null,
+        "seeds": [
+          1030000,
+          1030001,
+          1030002,
+          1030003,
+          1030004,
+          1030005,
+          1030006,
+          1030007,
+          1030008,
+          1030009,
+          1030010,
+          1030011,
+          1030012,
+          1030013,
+          1030014,
+          1030015,
+          1030016,
+          1030017,
+          1030018,
+          1030019
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "separate8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "final",
+        "timesteps": 1048576,
+        "episodes": 20,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.9375,
+        "mean_reward": 85.4981060546874,
+        "mean_steps": 1019.95,
+        "mean_success_steps": null,
+        "seeds": [
+          1040000,
+          1040001,
+          1040002,
+          1040003,
+          1040004,
+          1040005,
+          1040006,
+          1040007,
+          1040008,
+          1040009,
+          1040010,
+          1040011,
+          1040012,
+          1040013,
+          1040014,
+          1040015,
+          1040016,
+          1040017,
+          1040018,
+          1040019
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "exploration8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "final",
+        "timesteps": 1048576,
+        "episodes": 20,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.90546875,
+        "mean_reward": 53.291864285713835,
+        "mean_steps": 1000.3,
+        "mean_success_steps": null,
+        "seeds": [
+          1050000,
+          1050001,
+          1050002,
+          1050003,
+          1050004,
+          1050005,
+          1050006,
+          1050007,
+          1050008,
+          1050009,
+          1050010,
+          1050011,
+          1050012,
+          1050013,
+          1050014,
+          1050015,
+          1050016,
+          1050017,
+          1050018,
+          1050019
+        ]
+      },
+      "observation_version": 2,
+      "reward_profile": "legacy"
+    },
+    {
+      "name": "explicit_body8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "final",
+        "timesteps": 1048576,
+        "episodes": 20,
+        "successes": 0,
+        "success_rate": 0.0,
+        "mean_coverage": 0.90625,
+        "mean_reward": 53.401057142856736,
+        "mean_steps": 1048.6,
+        "mean_success_steps": null,
+        "seeds": [
+          1050000,
+          1050001,
+          1050002,
+          1050003,
+          1050004,
+          1050005,
+          1050006,
+          1050007,
+          1050008,
+          1050009,
+          1050010,
+          1050011,
+          1050012,
+          1050013,
+          1050014,
+          1050015,
+          1050016,
+          1050017,
+          1050018,
+          1050019
+        ]
+      },
+      "observation_version": 3,
+      "reward_profile": "legacy"
+    },
+    {
+      "name": "endgame8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "periodic",
+        "timesteps": 786432,
+        "episodes": 20,
+        "successes": 15,
+        "success_rate": 0.75,
+        "mean_coverage": 0.9234375,
+        "mean_reward": 105.81807441406241,
+        "mean_steps": 879.65,
+        "mean_success_steps": 977.4666666666667,
+        "seeds": [
+          1060000,
+          1060001,
+          1060002,
+          1060003,
+          1060004,
+          1060005,
+          1060006,
+          1060007,
+          1060008,
+          1060009,
+          1060010,
+          1060011,
+          1060012,
+          1060013,
+          1060014,
+          1060015,
+          1060016,
+          1060017,
+          1060018,
+          1060019
+        ]
+      },
+      "observation_version": 3,
+      "reward_profile": "coverage"
+    },
+    {
+      "name": "final8",
+      "steps_collected": 1048576,
+      "best_validation": {
+        "phase": "periodic",
+        "timesteps": 524288,
+        "episodes": 20,
+        "successes": 16,
+        "success_rate": 0.8,
+        "mean_coverage": 0.9046875,
+        "mean_reward": 105.02064453124993,
+        "mean_steps": 823.8,
+        "mean_success_steps": 866.9375,
+        "seeds": [
+          1060000,
+          1060001,
+          1060002,
+          1060003,
+          1060004,
+          1060005,
+          1060006,
+          1060007,
+          1060008,
+          1060009,
+          1060010,
+          1060011,
+          1060012,
+          1060013,
+          1060014,
+          1060015,
+          1060016,
+          1060017,
+          1060018,
+          1060019
+        ]
+      },
+      "observation_version": 3,
+      "reward_profile": "coverage"
+    }
+  ],
+  "evaluation": {
+    "4": {
+      "episodes": 1000,
+      "successes": 1000,
+      "success_rate": 1.0,
+      "success_rate_ci95": [
+        0.996173241514445,
+        1.0
+      ],
+      "mean_coverage": 1.0,
+      "min_coverage": 1.0,
+      "max_coverage": 1.0,
+      "mean_steps": 49.483,
+      "mean_success_steps": 49.483,
+      "mean_return": 23.010467000000006,
+      "termination_counts": {
+        "full_board": 1000
+      }
+    },
+    "6": {
+      "episodes": 100,
+      "successes": 69,
+      "success_rate": 0.69,
+      "success_rate_ci95": [
+        0.5937394428051057,
+        0.7722030278762395
+      ],
+      "mean_coverage": 0.8186111111111112,
+      "min_coverage": 0.08333333333333333,
+      "max_coverage": 1.0,
+      "mean_steps": 280.49,
+      "mean_success_steps": 308.0144927536232,
+      "mean_return": 33.059690000000025,
+      "termination_counts": {
+        "body_collision": 10,
+        "full_board": 69,
+        "no_food_timeout": 19,
+        "wall_collision": 2
+      }
+    },
+    "8": {
+      "episodes": 1000,
+      "successes": 811,
+      "success_rate": 0.811,
+      "success_rate_ci95": [
+        0.7855616182967687,
+        0.8340581379252162
+      ],
+      "mean_coverage": 0.917421875,
+      "min_coverage": 0.09375,
+      "max_coverage": 1.0,
+      "mean_steps": 789.719,
+      "mean_success_steps": 837.462392108508,
+      "mean_return": 63.205016714285534,
+      "termination_counts": {
+        "body_collision": 99,
+        "full_board": 811,
+        "no_food_timeout": 89,
+        "wall_collision": 1
+      }
+    }
+  },
+  "successful_seed_efficiency": {
+    "4": {
+      "successful_pairs": 1000,
+      "neural_success_mean_steps": 49.483,
+      "matched_hamiltonian_mean_steps": 52.28,
+      "mean_steps_saved": 2.797,
+      "fraction_steps_saved": 0.053500382555470544,
+      "paired_bootstrap_ci95": [
+        2.468975,
+        3.1300249999999994
+      ],
+      "bootstrap_replicates": 5000,
+      "bootstrap_seed": 20261014,
+      "condition": "Neural successful episodes only; not an unconditional superiority claim. Food coordinates can differ under matched environment seeds."
+    },
+    "6": {
+      "successful_pairs": 69,
+      "neural_success_mean_steps": 308.0144927536232,
+      "matched_hamiltonian_mean_steps": 299.30434782608694,
+      "mean_steps_saved": -8.710144927536232,
+      "fraction_steps_saved": -0.02910129769513849,
+      "paired_bootstrap_ci95": [
+        -26.17427536231884,
+        6.884057971014493
+      ],
+      "bootstrap_replicates": 5000,
+      "bootstrap_seed": 20261014,
+      "condition": "Neural successful episodes only; not an unconditional superiority claim. Food coordinates can differ under matched environment seeds."
+    },
+    "8": {
+      "successful_pairs": 811,
+      "neural_success_mean_steps": 837.462392108508,
+      "matched_hamiltonian_mean_steps": 973.5585696670777,
+      "mean_steps_saved": 136.09617755856968,
+      "fraction_steps_saved": 0.13979249096960825,
+      "paired_bootstrap_ci95": [
+        126.91975955610357,
+        144.82832922318124
+      ],
+      "bootstrap_replicates": 5000,
+      "bootstrap_seed": 20261014,
+      "condition": "Neural successful episodes only; not an unconditional superiority claim. Food coordinates can differ under matched environment seeds."
+    }
+  },
+  "trajectory_analysis": {
+    "4": {
+      "checkpoint": "runs\\ppo_iteration\\curriculum4\\checkpoints\\best.zip",
+      "board_size": 4,
+      "seed_start": 70000,
+      "episodes": 100,
+      "successes": 100,
+      "adaptive_successes": 78
+    },
+    "6": {
+      "checkpoint": "runs\\ppo_iteration\\curriculum6\\checkpoints\\best.zip",
+      "board_size": 6,
+      "seed_start": 70000,
+      "episodes": 20,
+      "successes": 13,
+      "adaptive_successes": 13
+    },
+    "8": {
+      "checkpoint": "runs\\ppo_iteration\\final8\\checkpoints\\best.zip",
+      "board_size": 8,
+      "seed_start": 90000,
+      "episodes": 100,
+      "successes": 81,
+      "adaptive_successes": 81,
+      "action_selection": "deterministic_argmax"
+    }
+  }
+}

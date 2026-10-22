@@ -1,0 +1,140 @@
+[
+  {
+    "phase": "pretrain",
+    "timesteps": 0,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.5703125,
+    "mean_reward": 32.279471428571405,
+    "mean_steps": 426.1,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  },
+  {
+    "phase": "periodic",
+    "timesteps": 262144,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.621875,
+    "mean_reward": 35.53051428571426,
+    "mean_steps": 569.1,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  },
+  {
+    "phase": "periodic",
+    "timesteps": 524288,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.6953125,
+    "mean_reward": 40.36325714285695,
+    "mean_steps": 752.1,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  },
+  {
+    "phase": "periodic",
+    "timesteps": 786432,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.7796875,
+    "mean_reward": 45.55199999999967,
+    "mean_steps": 911.6,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  },
+  {
+    "phase": "periodic",
+    "timesteps": 1048576,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.8890625,
+    "mean_reward": 52.30528571428532,
+    "mean_steps": 967.9,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  },
+  {
+    "phase": "final",
+    "timesteps": 1048576,
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_coverage": 0.86875,
+    "mean_reward": 50.98907142857111,
+    "mean_steps": 911.5,
+    "mean_success_steps": null,
+    "seeds": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009
+    ]
+  }
+]
